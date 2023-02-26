@@ -8,15 +8,14 @@ h1 {
 
 }
 
-h2 { 
 
-}
 
 nav ul li {
   color: white;
   
 }
  
+
 
  
 body {
@@ -44,7 +43,7 @@ body {
  
  /* formato de lista dentro del menu */
  nav ul {
-   list-style-type:circle;
+   list-style-type:armenian;
    padding: 100;
    margin: 10px;
    
