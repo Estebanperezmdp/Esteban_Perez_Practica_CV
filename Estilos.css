@@ -10,11 +10,7 @@ h1 {
 
 
 
-nav ul li {
-  color: white;
-  
-}
- 
+
 
 
  
@@ -43,12 +39,18 @@ body {
  
  /* formato de lista dentro del menu */
  nav ul {
-   list-style-type:armenian;
+   /*list-style-type:armenian;*/
    padding: 100;
    margin: 10px;
    
    background-color: #a2a1d1;
  }
+
+ nav ul li {
+  color: white;
+  
+}
+ 
 
  img {
 
@@ -78,8 +80,9 @@ body {
  /* Style the footer */
  footer {
    background-color: #3c3ada;;
-   padding: 10px;
+   
    text-align: center;
+   
    color: white;
  }
  
