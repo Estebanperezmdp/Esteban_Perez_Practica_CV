@@ -26,6 +26,21 @@ body {
    font-size: 35px;
    color: white;
  }
+
+ button{ 
+        background-color:#3c3ada;
+        color: white;
+        border-color: white;
+        
+ }
+ #pboton{
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+ }
+
+ #resultado{
+  text-align: center;
+ }
  
  /* Create two columns/boxes that floats next to each other */
  nav {
