@@ -43,8 +43,8 @@ body {
  }
  .labelformulario{
   margin: 10px 10px 10px 10px;
-  text-align: right;
-  position: relative;
+  text-align: center;
+
  }
 
  #resultado{
@@ -52,13 +52,18 @@ body {
  }
  
  /* Create two columns/boxes that floats next to each other */
- nav {
+ nav{
    float: left;
    width: 20%;
    height: 1000px; 
    background: #6260ce;
    padding: 20px;
    color: white;
+ }
+
+ div {
+  width:20%
+  ;
  }
  
  /* formato de lista dentro del menu */
