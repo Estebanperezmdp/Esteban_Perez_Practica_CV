@@ -19,7 +19,7 @@ document.getElementById("enviarconsulta").addEventListener('click',function(){
           
         } 
         
-        if (nomb==""){
+        if (correo==""){
             document.getElementById("imputcorreo").style.backgroundColor= '#e08383';
           
         } 
