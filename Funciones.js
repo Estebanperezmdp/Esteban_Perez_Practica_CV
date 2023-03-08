@@ -3,7 +3,7 @@ console.log("CV interaccion");
 document.getElementById("estadolaboral").onclick = function(){
     
     document.getElementById("resultado").innerHTML= "Estoy disponible, continuo desempleado, puedes completar el formulario presentado debajo. Muchas gracias!";
-    document.getElementById('consulta').style.display= "block";
+    document.getElementById('consulta').style.visibility='visible';
 };
 
 
@@ -31,7 +31,7 @@ document.getElementById("enviarconsulta").addEventListener('click',function(){
 
         document.getElementById("resultado").style.backgroundColor= '#6260ce';
         document.getElementById("resultado").innerHTML= "Muchas gracias!, me comunicaré en breve.";
-        document.getElementById('consulta').style.display= "none";
+        document.getElementById('consulta').style.visibility= "hidden";
     }
     
 }
