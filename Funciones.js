@@ -14,15 +14,21 @@ document.getElementById("enviarconsulta").addEventListener('click',function(){
     if (nomb=="" || correo==""){
         document.getElementById("resultado").innerHTML= "Alguno de los campos se encuentra vacio."; 
         document.getElementById("resultado").style.backgroundColor= '#e08383';
+        
         if (nomb==""){
             document.getElementById("imputnombre").style.backgroundColor= '#e08383';
           
-        } 
-        
+        } else{
+            document.getElementById("imputnombre").style.backgroundColor= 'white';
+        }
+
         if (correo==""){
             document.getElementById("imputcorreo").style.backgroundColor= '#e08383';
           
         } 
+        else {
+            document.getElementById("imputcorreo").style.backgroundColor= 'white';
+        }
 
     }else{
    
